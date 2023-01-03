@@ -9,3 +9,6 @@ def palindrome (word):
 #if False, print another message
     else: 
     print (word, "- not palindrome")
+#call function
+palindrome("mom")
+palindrome ("mother")
