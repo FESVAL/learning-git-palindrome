@@ -5,10 +5,10 @@ def palindrome (word):
     rev_word = word [::-1]
  #operator if compares word and rev_word and print message True"   
     if rev_word==word:
-    print (word, "- palindrome")
+        print (word, "- palindrome")
 #if False, print another message
     else: 
-    print (word, "- not palindrome")
+        print (word, "- not palindrome")
 #call function
 palindrome("mom")
 palindrome ("mother")
